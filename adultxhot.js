@@ -1,3 +1,6 @@
+var images = [],
+index = 0;
+
 images[0] = "<img src='https://1.bp.blogspot.com/-u9KHkxJk0lo/XPNxyaBFurI/AAAAAAAEROk/f08OUcxw9ikTN75Kiz1HGv4K4xGOKJKCwCLcBGAs/s1600/AcclaimedLivelyIslandcanary-size_restricted.gif '>";
 images[1] = "<img src='https://1.bp.blogspot.com/-rKhdvdTdr80/XPNxzsKv0gI/AAAAAAAEROs/8QM5Jbded2sSx64fVhEaqVBfCD5CPlwSgCLcBGAs/s1600/ActiveFabulousBinturong-size_restricted.gif '>";
 images[2] = "<img src='https://1.bp.blogspot.com/-miSannEKBBk/XPNxzWSqDsI/AAAAAAAEROo/Bu_2ll1ag7oJfTUwx1iSYyalWdyCzgrPACLcBGAs/s1600/AdmirableOilyAtlasmoth-size_restricted.gif '>";
@@ -58,3 +61,7 @@ images[56] = "<img src='https://1.bp.blogspot.com/-Fn7g3AO2jos/XPNzfWKVXII/AAAAA
 images[57] = "<img src='https://1.bp.blogspot.com/-EppsZlSME-A/XPNzfM_SNYI/AAAAAAAERTI/fNX0AHqpM-EUTN3eaJr8khQgCTR5BpoXACLcBGAs/s1600/WebbedRichAlbino-size_restricted.gif '>";
 images[58] = "<img src='https://1.bp.blogspot.com/-y_DGIRQd9Pg/XPNzi0T_RgI/AAAAAAAERTQ/4H0tXksNZdsbs1m9dhWDspLRfE-7dBgDQCLcBGAs/s1600/WideeyedLoathsomeAtlanticblackgoby-size_restricted.gif '>";
 images[59] = "<img src='https://1.bp.blogspot.com/-sciYhzRamS0/XPNzjyS40_I/AAAAAAAERTU/0kl52DP0xQIukOGbvhUimdgvYx9JmjARwCLcBGAs/s1600/ZigzagDefiniteAplomadofalcon-size_restricted.gif '>";
+
+
+index = Math.floor(Math.random() * images.length);
+document.write(images[index]);
