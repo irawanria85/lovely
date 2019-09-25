@@ -1,4 +1,4 @@
-var sites = [
+var pages = [
 "https://terbayar.blogspot.com/2012/02/didoakan-malaikat-jibril-masuk-neraka.html",
 "https://terbayar.blogspot.com/2012/02/dzikrnya-seekor-ulat.html",
 "https://terbayar.blogspot.com/2012/02/empat-malaikat-ketika-sakit.html",
