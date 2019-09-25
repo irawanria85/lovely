@@ -4731,7 +4731,8 @@ var sites = [
 "https://waitingku.blogspot.com/2019/03/what-is-pip-and-do-i-need-it.html",
 "https://waitingku.blogspot.com/2019/05/cancer-test-scam-hits-spokane.html",
 "https://waitingku.blogspot.com/2019/05/oic-impersonator-contacting-auto.html",
-];
-function randomSite() {var i = parseInt(Math.random() * sites.length);
-location.href = sites[i];
-}
+]; 
+function randomPage() { 
+return pages[Math.round(Math.random() * (pages.length - 1))]; 
+} 
+location.href= randomPage(); 
