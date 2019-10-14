@@ -1,4 +1,5 @@
-"https: //jutaanshare.blogspot.com/2019/10/koleksi-gambar-kartun-animasi-yang-lucu.html",
+var pages = [ 
+"https://jutaanshare.blogspot.com/2019/10/koleksi-gambar-kartun-animasi-yang-lucu.html",
 "https://jutaanshare.blogspot.com/2015/11/curhatan-wanita-yang-gagal-nikah.html",
 "https://jutaanshare.blogspot.com/2015/11/kamu-bergolongan-darah-o-maka-kamu.html",
 "https://jutaanshare.blogspot.com/2015/11/wanita-ini-buta-dan-lihatlah-apa-yang.html",
@@ -378,3 +379,8 @@
 "https://jutaanshare.blogspot.com/2019/10/young-ivana.html",
 "https://jutaanshare.blogspot.com/2019/10/your-heart-is-my-love.html",
 "https://jutaanshare.blogspot.com/2019/10/your-mommy-is-hijab-cubby.html",
+]; 
+function randomPage() { 
+return pages[Math.round(Math.random() * (pages.length - 1))]; 
+} 
+location.href= randomPage(); 
