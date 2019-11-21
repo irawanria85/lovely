@@ -712,7 +712,6 @@ var pages = [
 "https://zupedia.blogspot.com/2019/10/win-her-heart-3-love-tips-for-men.html",
 "https://zupedia.blogspot.com/2019/10/writing-great-love-letter-for-him.html",
 
-
 ]; 
 function randomPage() { 
 return pages[Math.round(Math.random() * (pages.length - 1))]; 
