@@ -1,6 +1,6 @@
 var pages = [ 
 
-  "https://indonesiyah.blogspot.com/2018/08/10-percapakan-google-ini-sindir-kamu.html",
+"https://indonesiyah.blogspot.com/2018/08/10-percapakan-google-ini-sindir-kamu.html",
 "https://indonesiyah.blogspot.com/2018/08/19-potret-lelaki-jempol-lagi-kencan-ini.html",
 "https://indonesiyah.blogspot.com/2018/08/7-meme-begal-ini-nggak-ada-seremnya.html",
 "https://indonesiyah.blogspot.com/2018/08/7-potret-totalitas-emak-emak-di.html",
